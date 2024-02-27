@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 font-family:' poppins',sans-serif;
 box-sizing: border-box;
-    font-size:50px;
+    font-size:200px;
 }
 html{
     scroll-behavior: smooth;
@@ -31,6 +31,9 @@ nav{
     justify-content: space-between;
     margin-top:-10px; 8px;
 
+}
+nav .fa{
+    display : none;
 }
 nav ul li {
     list-style: none;
@@ -341,6 +344,10 @@ nav ul #usman{
     padding: 30px 0px;
         display:block;
 }
+    form input,form textarea{
+    width:auto;
+        height:auto;
+    }
     .work-list{
         margin: 0px 10px 5px;
     }
@@ -434,6 +441,14 @@ nav ul #usman{
         body{
             font-size:50px;
         }
+#m1,#m2,#m3,#m4{
+    font-size:200px;
+}
+form input,form textarea{
+    width:auto;
+        height:auto;
+    }
+
           #contact{
     padding: 30px 0px;
         display:block;
@@ -441,6 +456,10 @@ nav ul #usman{
         .work-list{
             margin: 0px 10px 5px;
         }
+       nav .fa {
+      display: block;
+      font-size: 25px;  
+    } 
         .middle p{
             margin: 25px 5px;
         }
@@ -528,10 +547,19 @@ nav ul #usman{
         body{
             font-size:50px;
         }
+form input,form textarea{
+    width:auto;
+        height:auto;
+    }
+
           #contact{
     padding: 30px 0px;
         display:block;
 } 
+       nav .fa {
+      display: block;
+      font-size: 25px;  
+    } 
         .work-list{
             margin: 0px 10px 5px;
         }
